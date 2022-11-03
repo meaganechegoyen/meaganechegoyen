@@ -1,0 +1,64 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/BebasNeue-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+body {
+  font-family: 'Bebas Neue';
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/*.title {
+}*/
+
+.title h1 {
+  font-size: calc(62px + 1vw);
+  line-height: calc(64px + 1vw);
+}
+
+.title h2 {
+  font-size: calc(32px + 1vw);
+  line-height: calc(34px + 1vw);
+}
+
+.title h1, .title h2 {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link-item {
+  margin: 5px 0;
+}
+
+.link {
+  color: #000;
+  font-size: calc(22px + 1vw);
+  line-height: calc(24px + 1vw);
+  transition: all .6s ease;
+}
+
+.link:hover {
+  font-size: calc(24px + 1vw);
+}
+

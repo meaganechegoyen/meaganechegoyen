@@ -55,7 +55,7 @@ body {
   color: #000;
   font-size: calc(22px + 1vw);
   line-height: calc(24px + 1vw);
-  transition: all .6s ease;
+  transition: all .3s ease-in-out;
 }
 
 .link:hover {
